@@ -1,0 +1,113 @@
+.header{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 60px;
+    padding-left: 60px;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 40px;
+}
+ul{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    column-gap: 15px;
+    align-items: center;
+    cursor: pointer;
+
+}
+.frist{
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.fourth{
+    display: flex;
+    column-gap: 5px;
+    flex-wrap: wrap;
+     justify-content: center;
+     text-decoration: underline;
+    }
+
+     .fourth_part1{
+        justify-content: center;
+        display: flex;
+        font-size: 40px;
+        color: darkblue;
+     }
+     .fourth_part2{
+        justify-content: center;
+        display: flex;
+        font-size: 40px;
+        color: rgb(161, 254, 22);
+     }
+     .fourth_part3{
+        display: flex;
+        column-gap: 1px;
+        flex-wrap: wrap;
+         justify-content: center;
+         text-decoration: underline;
+        }
+        .fourth_part4{
+            justify-content: center;
+            display: flex;
+            font-size: 40px;
+            color: red;
+         }
+         .fourth_part5{
+            display: flex;
+            column-gap: 1px;
+            flex-wrap: wrap;
+             justify-content: center;
+             text-decoration: underline;
+            }
+            .fourth_part7{
+                justify-content: center;
+                display: flex;
+                font-size: 40px;
+                color: red;
+             }
+             .fourth_part8{
+                display: flex;
+                column-gap: 1px;
+                flex-wrap: wrap;
+                 justify-content: center;
+                 text-decoration: underline;
+                }
+
+.fifth{
+    display: flex;
+    justify-content: space-between;
+
+}
+.sixth{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.fourth_part2{
+    display: flex;
+    column-gap: 5px;
+    flex-wrap: wrap;
+     justify-content: center;
+     text-decoration: underline;
+    }
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    footer a {
+        color: #4caf50;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+    footer a:hover {
+        text-decoration: underline;
+    }
